@@ -64,3 +64,260 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: flex;
+		float: left;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	
+	header {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: center
+	}
+	
+	div {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: flex-start;
+	}
+	
+	section {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: flex-start;
+	}
+	
+	img {
+		display: none;
+	}
+}
+
+body {
+	width: 90%;
+	margin: auto;
+}
+
+/*header {
+	text-align: center;
+}*/
+
+img {
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: 100% azure;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: blueviolet;
+	background: mintcream;
+}
+
+.logo {
+	width: auto;
+}
+
+.services-header-img {
+	margin: 30px 0;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.header_content {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+#button {
+	display: flex;
+	flex-flow: row nowrap;
+	border: 2px solid #2F2F2F;
+	padding: 10px;
+}
+
+#button:hover {
+	background: indigo;
+	color: mintcream;
+}
+
+.upper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.top_content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-shrink: 1;
+}
+
+.top_content p {
+	width: 95%;
+	margin: 0;
+}
+
+.lower {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.lower a {
+	text-decoration: none;
+	color: black;
+}
+
+.lower a:hover {
+	color: indigo;
+}
+
+.bottom_content {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	align-content: flex-start;
+/*	flex-shrink: 5;*/
+}
+
+.bottom_content p {
+	width: 95%;
+	margin: 0;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.middle-img {
+	margin: 40px 0;
+}
+
+hr {
+	color: darkgray;
+	height: 2px;
+	margin: 40px 0;
+}
+
+address {
+	display: flex;
+	flex-flow: column wrap;
+	align-content: flex-start;
+	margin: 40px 0;
+}
+
+address p {
+	margin: 0 0 1em 0;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+	margin: 60px 0 0 0;
+}
+
+.options {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.services-options {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border: 2px solid black;
+	width: 47%;
+	padding: 20px;
+	margin: 15px 0;
+}
+
+.services-options:hover {
+	background: aliceblue;
+}
+
+.learn-more {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	width: inherit;
+	margin: 20px 0 0 0;
+	background: white;
+}
+
+
+.learn-more:hover {
+	background: indigo;
+	color: mintcream;
+}
+
+.facts {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-content: flex-start;	
+}
+
+.some-facts {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	width: 47%;
+}
+
+ul {
+	list-style: square inside;
+	margin: 20px 0 0 0;
+}
+
+li {
+	margin: 0 0 10px 0;
+}
